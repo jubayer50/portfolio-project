@@ -25,6 +25,20 @@ main {
   cursor: pointer;
 }
 
+.section-heading h2 {
+  font-size: 35px;
+  font-weight: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  /* margin-bottom: 30px; */
+}
+
 /* main style */
 header {
   background: url("../images/developer.png"), url("../images/header_bg.png"),
@@ -101,4 +115,37 @@ nav .menu a {
 #banner .hero-img img {
   max-width: 585px;
   vertical-align: middle;
+}
+
+#about {
+  padding-top: 130px;
+  /* background-color: #; */
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+
+#about .about-info {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#about .about-info .info-card p {
+  font-size: 20px;
+  color: #757575;
+  /* margin-bottom: 5px; */
+}
+
+#about.about-info .info-card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
