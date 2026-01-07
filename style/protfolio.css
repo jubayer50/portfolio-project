@@ -192,3 +192,71 @@ nav .menu a {
   line-height: 28px;
   color: #757575;
 }
+
+#resume {
+  /* margin-top: 130px; */
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto 0;
+}
+
+#resume .resume-container {
+}
+
+#resume .resume-info {
+  display: flex;
+  gap: 35px;
+  flex-basis: 558px;
+}
+
+#resume .resume-info h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin: 113px 0 30px;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+#resume .resume-card h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+#resume .resume-card .resume-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+#resume .resume-card p {
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+#resume .center-btn {
+  text-align: center;
+}
+
+#resume button {
+  text-align: center;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  padding: 17px 20px;
+  text-align: center;
+}
+
+#resume button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
